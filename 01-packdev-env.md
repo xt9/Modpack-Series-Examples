@@ -11,7 +11,7 @@ Will output errors into crafttweaker.log and ingame chat when script files are s
 http://snakenest.com/snaketail/
 
 ### Visual studio code multicursors
-Select multiple occurrences with CTRL + D
+Select multiple occurrences with `CTRL + D`
 
 ### Editing config files while the game is running
 If you're editing config files while the game is running do not change mod options in game
