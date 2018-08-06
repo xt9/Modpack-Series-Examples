@@ -3,3 +3,7 @@ https://marketplace.visualstudio.com/items?itemName=BloodWorkXGaming.zslint
 
 ### Start zslint with
 `/crafttweaker zslint` to start linting
+
+
+### Snaketail, log tailing for windows
+http://snakenest.com/snaketail/
