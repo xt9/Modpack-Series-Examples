@@ -2,7 +2,8 @@ import crafttweaker.item.IItemStack;
 
 /* 
     Crafttweaker Item Damage Crafting & Item Transformers
-    Requires Thermal Foundation mod
+    Requires Thermal Foundation mod for script to run
+    https://www.youtube.com/watch?v=u-j57wF8nw0
  */
 
 # array filled with IItemStack entries

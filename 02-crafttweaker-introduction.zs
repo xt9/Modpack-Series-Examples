@@ -1,5 +1,10 @@
 import crafttweaker.item.IItemStack;
 
+/* 
+    Crafttweaker introduction
+    https://www.youtube.com/watch?v=bx7VoAmTReo
+ */
+
 # List of common CrT data types
 # https://crafttweaker.readthedocs.io/en/latest/#Vanilla/Variable_Types/Variable_Types/
 

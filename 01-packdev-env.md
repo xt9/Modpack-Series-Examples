@@ -1,5 +1,8 @@
 ## Packdev Environment
 
+### Video Link
+https://www.youtube.com/watch?v=mWV8XBvC5ks
+
 ### Zenscript extension for VSCode
 https://marketplace.visualstudio.com/items?itemName=BloodWorkXGaming.zslint
 
