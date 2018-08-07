@@ -19,6 +19,7 @@ notyetuploaded.com
 * [Advanced Mortars](https://minecraft.curseforge.com/projects/advanced-mortars) - Custom mortar recipes which could be nice early game.
 * [Alfinivia](https://minecraft.curseforge.com/projects/alfinivia) - Adds liquid interactions, and some stuff to Misty World and IE, a lot like Modtweaker.
 * [PackMode](https://minecraft.curseforge.com/projects/packmode) - Pack modes similar to 1.7.10 packs, script files can be attached to a certain mode with CrT preprocessors.
+* [ArmoreableMobs](https://minecraft.curseforge.com/projects/armoreablemobs) - Give mobs armor/items on spawn using CraftTweaker.
 
 ### Tweaker mods with CrT support but works standalone
 * [Modular Machinery](https://minecraft.curseforge.com/projects/modular-machinery) - Custom multiblock machines, recipes for the machines can be added in JSON or through Crafttweaker.
