@@ -2,6 +2,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 /* 
     Crafttweaker Crafttweaker Maps/Associative Arrays
+    Immersive Engineering Required for script to work (Thermal Foundation is optional)
     Video not yet released.
 
     A map (or an Associative Array, which is the proper term) is a data-type that's similiar to arrays.
