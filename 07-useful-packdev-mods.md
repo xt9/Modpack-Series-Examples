@@ -17,6 +17,7 @@ notyetuploaded.com
 * TreeTweaker - Highly customizable tree spawning rules & custom trees
 * Initial Inventory - Specify what items the player should start with.
 * Advanced Mortars - Custom mortar recipes which could be nice early game.
+* Alfinivia - Adds liquid interactions, and some stuff to Misty World and IE, a lot like Modtweaker.
 
 ### Tweaker mods with CrT support but works standalone
 * Modular Machinery - Custom multiblock machines, recipes for the machines can be added in JSON or through Crafttweaker.
