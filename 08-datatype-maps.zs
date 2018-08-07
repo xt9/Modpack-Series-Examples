@@ -42,10 +42,15 @@ var metalObjects as IOreDictEntry[string][string] = {
     }
 };
 
+# They can both be accessed with [key][key] or [key].memberGetter
+print(metalObjects["iron"]["dust"].firstItem.displayName); # -> Pulverized Iron
+print(metalObjects["copper"]["ore"].firstItem.displayName); # -> Copper Ore
+print(metalObjects["iron"].dust.firstItem.displayName); # -> Pulverized Iron
+print(metalObjects["copper"].ore.firstItem.displayName); # -> Copper Ore
+
 /* 
-    You can access nested maps like these with 
+    You can loop nested maps like these with 
     either the key, value iterator and grab the nested map from -> value
-    or the key iterator and get the nested map from -> metalObjects[key]
  */
 for key, value in metalObjects {
     recipes.addShapeless(value.dust.firstItem * 4, 
@@ -53,6 +58,7 @@ for key, value in metalObjects {
     ); 
 }
 
+# or the key iterator and get the nested map from -> metalObjects[key]
 for key in metalObjects {
     recipes.addShapeless(metalObjects[key].dust.firstItem * 4, 
         [<immersiveengineering:tool>, metalObjects[key].ore]
