@@ -18,17 +18,21 @@ notyetuploaded.com
 * [Initial Inventory](https://minecraft.curseforge.com/projects/initial-inventory) - Specify what items the player should start with.
 * [Advanced Mortars](https://minecraft.curseforge.com/projects/advanced-mortars) - Custom mortar recipes which could be nice early game.
 * [Alfinivia](https://minecraft.curseforge.com/projects/alfinivia) - Adds liquid interactions, and some stuff to Misty World and IE, a lot like Modtweaker.
+* [PackMode](https://minecraft.curseforge.com/projects/packmode) - Pack modes similar to 1.7.10 packs, script files can be attached to a certain mode with CrT preprocessors.
 
 ### Tweaker mods with CrT support but works standalone
 * [Modular Machinery](https://minecraft.curseforge.com/projects/modular-machinery) - Custom multiblock machines, recipes for the machines can be added in JSON or through Crafttweaker.
 * [UniDict](https://minecraft.curseforge.com/projects/unidict) - Unifies metals and machine outputs of said metals, very powerful. Have a few methods in Crafttweaker.
 
 ### Misc tweakers with no Crt support
-* [Dropt](https://minecraft.curseforge.com/projects/dropt) - Powerful drop replacer for blocks with a ton of rules and modifiers.
+* [Dropt](https://minecraft.curseforge.com/projects/dropt) - Powerful drop replacer for blocks with a ton of rules and modifiers. JSON Based
+* [Block Drops Tweaker](https://minecraft.curseforge.com/projects/block-drops-tweaker) - Similar to Dropt, also JSON based. Have commands to help with rule creation.
 * [Scavenge](https://minecraft.curseforge.com/projects/scavenge) - JSON based tweaker that let you scavenge items from blocks, can have rules like that the player has to sneak to scavenge, or that the block has x amounts of uses.
 * [Gendustry](https://minecraft.curseforge.com/projects/gendustry) - Can makes custom bees, combs and bee mutations for Forestry
 * [Block Tweaker](https://minecraft.curseforge.com/projects/block-tweaker) - Tweak properties of existing blocks.
-* [Ex Nihilo Creatio](https://minecraft.curseforge.com/projects/ex-nihilo-creatio) - Config can be changed so it uses json lists for its recipes.
+* [Ex Nihilo Creatio](https://minecraft.curseforge.com/projects/ex-nihilo-creatio) - Config can be changed so it uses json lists for its recipes. Not exactly a pack dev mod but it's really versatile.
+* [Erosion 2](https://minecraft.curseforge.com/projects/erosion) - Block fluid erosion, will transform certain blocks under the right conditions.
+* [Restriction](https://minecraft.curseforge.com/projects/restriction) - JSON based tweaker that let you limit the players ability to place Blocks/TileEntities depending on a set of rules. Will not stop placed TileEntities from working but it will block any tries to open the GUI if the conditions are not met.
 
 ### Custom dimension mods
 * [Dimensional Control](https://minecraft.curseforge.com/projects/dimensional-control) - Tweaks dimensions. Can do powerful stuff like block replacing at certain Y levels, custom portal structures and more.
@@ -67,6 +71,7 @@ notyetuploaded.com
 * [Recipe Stages](https://minecraft.curseforge.com/projects/recipe-stages) - Hide and disable certain recipes until the player has a certain stage.
 * [MultiBlock Stages](https://minecraft.curseforge.com/projects/multiblock-stages) - Require the player to have stage X to be able to construct a specific multiblock.
 * [Ore Stages](https://minecraft.curseforge.com/projects/ore-stages) - Can hide ores behind gamestages, hidden ores can be masked as a different block.
+* [Gamestage Books](https://minecraft.curseforge.com/projects/gamestage-books) - Consumable books that unlocks GameStages, mostly added for an alternative to unlocking gamestages by commands.
 
 ### Misc
 * [TellMe](https://minecraft.curseforge.com/projects/tellme) - Mod for dumping metadata for your minecraft instance. Sometimes you want to dump data which crafttweaker cannot dump, for example a list of registered enchantments. Can give information about most things that have a registry.
