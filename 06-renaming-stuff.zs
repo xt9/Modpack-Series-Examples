@@ -1,4 +1,8 @@
-
+/* 
+    Crafttweaker Crafttweaker Renaming and Localization
+    https://www.youtube.com/watch?v=VLHfo_G2im0
+ */
+ 
 # Renaming can be done on items and blocks with the IItemStack brackets
 <minecraft:stick>.displayName = "Fly Flogger";
 
