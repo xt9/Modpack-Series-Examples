@@ -2,7 +2,7 @@
 1.12.2 is a utopia for pack devs, there are a ton of mods that alter various things in the game and it feels like we're getting a few new pack-dev focused mod every week. And since there's so many of them now I have probably missed a few.
 
 ### Video Link
-notyetuploaded.com
+https://www.youtube.com/watch?v=QLy3Z8cmUl4
 
 ### CraftTweaker
 * [Crafttweaker](https://minecraft.curseforge.com/projects/crafttweaker) - Can tweak most things there are to tweak, all hail Crafttweaker.
