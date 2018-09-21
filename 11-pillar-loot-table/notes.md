@@ -2,10 +2,10 @@
 https://www.youtube.com/watch?v=ojM2UH9ApXw
 
 # Spawners in structures are added with a structure block on "data" mode then using the spawner tag.
-`spawner Skeleton`
-`spawner skeleton`
-`spawner minecraft:skeleton`
-`spawner thermalfoundation:blizz`
+`spawner Skeleton`  
+`spawner skeleton`  
+`spawner minecraft:skeleton`  
+`spawner thermalfoundation:blizz`  
 
 # Get full entitynames with
 `/tellme dump entities`
