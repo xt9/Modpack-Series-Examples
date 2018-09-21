@@ -1,5 +1,5 @@
 /* 
-    Crafttweaker Crafttweaker Renaming and Localization
+    CraftTweaker Renaming and Localization
     https://www.youtube.com/watch?v=VLHfo_G2im0
  */
  
