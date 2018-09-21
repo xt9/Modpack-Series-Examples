@@ -7,7 +7,7 @@ import loottweaker.vanilla.loot.Functions;
 
 /* 
     Adding and removing loot from entities(mobs)
-    NYR
+    https://www.youtube.com/watch?v=Gam65KJ4RDM
  */
  
 # Removing items from the final droplist
