@@ -1,0 +1,38 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "minecraft:dirt"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 25
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:sapling"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 75
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

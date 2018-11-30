@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:soul_sand"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": [
+              "minecraft:ghast_tear"
+            ],
+            "quantity": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

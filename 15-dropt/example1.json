@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:stone:0"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minecraft:stone:5",
+              "minecraft:gravel"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
