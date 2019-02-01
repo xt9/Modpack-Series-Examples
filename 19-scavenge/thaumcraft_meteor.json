@@ -1,0 +1,63 @@
+{
+    "block_pools": [
+        {
+            "name": "MeteorRitual",
+            "type": {
+                "type": "block",
+                "name": "thaumcraft:pedestal_arcane"
+            },
+            "clicktype": "leftclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "thaumcraft:caster_basic"
+                },
+                {
+                    "type": "consume_tile_items",
+                    "side": "down",
+                    "items": {
+                        "name": "thaumcraft:salis_mundus"
+                    }
+                },
+                {
+                    "type": "play_sound",
+                    "name": "thaumcraft:craftstart",
+                    "category": "master",
+                    "volume": 0.2,
+                    "pitch": 1.0,
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "thaumcraft:evilportal",
+                    "category": "master",
+                    "volume": 0.2,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "enchantmenttable",
+                    "amount": 100,
+                    "disableJEI": true
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle",
+                    "arguments": "explode ~0 ~2.5 ~0 1.5 3 1.5 0.2 50"
+                },
+                {
+                    "type": "use_command",
+                    "name": "pillar-spawn",
+                    "arguments": "spawnable ~-1 ~2 ~-1"
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_item",
+                    "message": "You must hold a Caster's Gauntlet!"
+                }
+            ]
+        }
+    ]
+}

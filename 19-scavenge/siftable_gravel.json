@@ -1,0 +1,108 @@
+{
+    "block_pools": [
+        {
+            "name": "SiftableGravel",
+            "type": {
+                "type": "ore",
+                "name": "gravel"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "per_block_limit",
+                    "usage": 1,
+                    "max": 3
+                },
+                {
+                    "type": "require_tool",
+                    "tool": "shovel",
+                    "level": 0
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 4
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.shovel.flatten",
+                    "category": "block",
+                    "volume": 0.5,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 0,
+                    "amount": 2,
+                    "weight": 10
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 1,
+                    "amount": 2,
+                    "weight": 1
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 2,
+                    "amount": 2,
+                    "weight": 6
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 3,
+                    "amount": 2,
+                    "weight": 6
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 4,
+                    "amount": 2,
+                    "weight": 3
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 4,
+                    "amount": 2,
+                    "weight": 3
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 5,
+                    "amount": 2,
+                    "weight": 3
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 6,
+                    "amount": 2,
+                    "weight": 2
+                },
+                {
+                    "name": "thaumcraft:cluster",
+                    "meta": 7,
+                    "amount": 2,
+                    "weight": 2
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_tool",
+                    "message": "You must hold a Shovel to do that!"
+                },
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

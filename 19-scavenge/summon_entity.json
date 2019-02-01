@@ -1,0 +1,57 @@
+{
+    "block_pools": [
+        {
+            "name": "SummonEntity",
+            "type": {
+                "type": "block",
+                "name": "thaumcraft:stone_ancient_glyphed"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "require_item",
+                    "name": "thaumcraft:void_seed"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "use_command",
+                    "name": "summon",
+                    "arguments": "thaumcraft:cultistportallesser ~ ~1 ~"
+                },
+                {
+                    "type": "use_command",
+                    "name": "particle",
+                    "arguments": "enchantmenttable ~0 ~1.2 ~0 1 1 1 0.5 75"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "thaumcraft:whispers",
+                    "category": "master",
+                    "volume": 0.3,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                },
+                {
+                    "id": "require_item",
+                    "message": "Requires a §bVoid Seed§r in your Main Hand."
+                },
+                {
+                    "id": "consume_item",
+                    "message": "You stare into the §bVoid§r, the §bVoid§r stares back."
+                }
+            ]
+        }
+    ]
+}

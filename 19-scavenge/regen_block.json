@@ -1,0 +1,63 @@
+{
+    "block_pools": [
+        {
+            "name": "RegenBlock",
+            "type": {
+                "type": "block",
+                "name": "thermalfoundation:rockwool",
+                "meta": 9
+            },
+            "clicktype": "leftclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:beetroot"
+                },
+                {
+                    "type": "consume_block"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "dragonbreath",
+                    "amount": 90,
+                    "xOffset": 0.2,
+                    "yOffset": 0.2,
+                    "zOffset": 0.2,
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:entity.witch.drink",
+                    "category": "master",
+                    "pitch": 1.0,
+                    "disableJEI": true
+                },
+                {
+                    "type": "add_potions",
+                    "potions": [
+                        {
+                            "name": "minecraft:regeneration",
+                            "duration": 3600,
+                            "amplifier": 3
+                        }
+                    ]
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_item",
+                    "message": "You must hold a Beetroot!"
+                },
+                {
+                    "id": "consume_block",
+                    "message": "You feel really good. §b(Gained regeneration 4)§r"
+                }
+            ]
+        }
+    ]
+}
