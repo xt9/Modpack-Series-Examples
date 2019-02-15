@@ -1,0 +1,9 @@
+setIcon("minecraft:stone")
+setTitle("Root Advancement, Will set page title")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
+setDescription("")
+
+setHidden(true)
+addCriteria("l", "minecraft:location")
+setPos(-28,1)

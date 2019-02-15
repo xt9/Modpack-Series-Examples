@@ -1,0 +1,2 @@
+gamestage silentadd @p te_stage
+time set 17000

@@ -1,0 +1,16 @@
+setIcon("minecraft:stone")
+
+setTitle("Getting tha tech")
+setDescription("Kill a blizz!")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+addParent("triumph:test/root")
+alwaysVisible()
+hideLines()
+
+cr = addCriteria("kill_thermal_blizz", "minecraft:player_killed_entity")
+cr.setEntityType("thermalfoundation:blizz")
+addRewardFunction("triumph:gamestage_functions/thermal")
+setPos(0,1)
