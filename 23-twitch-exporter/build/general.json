@@ -1,0 +1,7 @@
+{
+    "packAuthor": "IterationFunk",
+    "minecraftVersion": "1.12.2",
+    "modLoader": "forge",
+    "modLoaderVersion": "14.23.5.2798",
+    "includes": ["config", "scripts"]
+}
